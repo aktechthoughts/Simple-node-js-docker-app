@@ -1,13 +1,12 @@
 {
-  "name": "nodejs-image-demo",
+  "name": "nodejs-application",
   "version": "1.0.0",
-  "description": "nodejs image demo",
+  "description": "nodejs application",
   "author": "Abhishek Kumar<abhishek_ku@yahoo.com>",
   "license": "MIT",
   "main": "app.js",
   "keywords": [
     "nodejs",
-    "bootstrap",
     "express"
   ],
   "dependencies": {
