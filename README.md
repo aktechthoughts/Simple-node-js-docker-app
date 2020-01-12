@@ -1,0 +1,1 @@
+A simple node js application deployerd in docker using Dockerfile.
