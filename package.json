@@ -1,15 +1,13 @@
 {
-  "name": "nodejs-application",
-  "version": "1.0.0",
-  "description": "nodejs application",
-  "author": "Abhishek Kumar<abhishek_ku@yahoo.com>",
-  "license": "MIT",
-  "main": "app.js",
-  "keywords": [
-    "nodejs",
-    "express"
-  ],
-  "dependencies": {
-    "express": "^4.16.4"
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "Abhishek Kumar<abhishek_ku@yahoo.com>",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
   }
-}

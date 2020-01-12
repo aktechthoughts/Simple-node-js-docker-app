@@ -3,13 +3,8 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'node --version'
+                sh 'echo "Application Build Successful."'
             }
-        }
-    }
-    post {
-        always {
-           sh 'docker image prune'
         }
     }
 }
