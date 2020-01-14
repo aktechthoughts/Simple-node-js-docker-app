@@ -16,9 +16,8 @@ pipeline {
     agent { 
         dockerfile {
             filename 'Dockerfile'
-            additionalBuildArgs  '--build-arg version=1.0.0'
-            args '-t node/app:v1 '
-            
+            additionalBuildArgs  '--build-arg version=1.0.0 -t node/app:v1' 
+                     
         }
     }
     stages {
